@@ -1,9 +1,17 @@
 @import "colors";
-
 body {
-	background-color: $blue;
+    //background-color: $blue;
+    background: linear-gradient($background, $background 30%, #090D29) no-repeat center center fixed;
 }
 
-h1 {
-	color: green;
+h1,
+h3 {
+    color: white;
+}
+
+.navbar-brand {}
+
+#ngLogo {
+    height: 50px;
+    width: 50px;
 }
